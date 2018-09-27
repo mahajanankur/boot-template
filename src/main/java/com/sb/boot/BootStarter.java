@@ -1,6 +1,7 @@
-package com.shivablast.boot;
+package com.sb.boot;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -11,9 +12,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *          com.shivablast.boot package.
  */
 @SpringBootApplication
-public class Application {
+@EnableAutoConfiguration
+public class BootStarter {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(BootStarter.class, args);
 	}
 }
