@@ -1,5 +1,5 @@
 ## Spring boot template
-This is a spring-boot backend rest web-service template for beginners.
+This is a spring-boot rest web-service template for beginners.
 
 ## Build
 
