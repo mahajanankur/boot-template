@@ -8,8 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author ankur.mahajan
  * @written 12-Sep-2017
  * 
- *          This will work only if the controller package is under
- *          com.shivablast.boot package.
+ *          This will work only if the other packages are under this.
  */
 @SpringBootApplication
 @EnableAutoConfiguration
